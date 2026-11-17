@@ -1,0 +1,44 @@
+# Raw/large datasets (download instructions in README)
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Excel / Power BI temp files
+~$*
+*.tmp
+.~lock.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+node_modules/
+outputs/
+*.log
+powerbi/**/.pbi/
+
+# Local review material and superseded workbook
+excel/olist_summary.xlsx
+docs/interview_guide.md
+docs/project_review.md
+docs/excel_validation.json
+scripts/check_excel.py
+scripts/preview_excel.mjs
+
+# Generated database
+*.db
+
+# Large generated tables (rebuild with scripts/build_notebook.py)
+data/processed/*_clean.csv
+data/processed/customers_rfm.csv
+data/processed/powerbi/

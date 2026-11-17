@@ -1,0 +1,7 @@
+segment,customers,avg_recency_days,avg_orders,avg_spend,pct_revenue
+New high-value,14487,92.0,1.0,265.77,29.2
+At risk high-value,14009,392.0,1.0,273.76,29.1
+Hibernating,40438,315.0,1.0,88.77,27.2
+New low-value,21373,89.0,1.0,55.19,8.9
+Champions,2126,216.0,2.14,318.19,5.1
+Loyal,663,233.0,2.04,73.72,0.4
